@@ -1,5 +1,4 @@
-@"
-# Python virtual environments
+﻿# Python virtual environments
 .venv/
 venv/
 env/
@@ -10,6 +9,7 @@ __pycache__/
 .pytest_cache/
 
 # Generated backups
+*.bak
 *.py.bak
 
 # Secrets
@@ -26,4 +26,3 @@ Thumbs.db
 build/
 dist/
 *.egg-info/
-"@ | Set-Content -Encoding utf8 .gitignore
